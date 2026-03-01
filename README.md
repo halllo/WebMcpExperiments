@@ -11,10 +11,10 @@ Next I start the MCP-B Extension in Chrome and invoke one of the two MCP tools. 
 
 ![alt text](image.png)
 
-I can skip initialization in the element by commenting out the import:
+I can work around this and skip initialization in the element by commenting out the import:
 
 ```typescript
 import '@mcp-b/global'; //initializing this again leads to every tool invocation happening twice.
 ```
 
-No MCP-B is only initialized in the shell and every tool is only invoked once.
+Now MCP-B is only initialized in the shell and every tool is only invoked once.
