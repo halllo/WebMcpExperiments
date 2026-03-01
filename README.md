@@ -18,3 +18,15 @@ import '@mcp-b/global'; //initializing this again leads to every tool invocation
 ```
 
 Now MCP-B is only initialized in the shell and every tool is only invoked once.
+
+## Development
+
+```bash
+cd element
+npm run start
+```
+
+```bash
+cd shell
+npm run start
+```

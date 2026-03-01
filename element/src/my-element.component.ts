@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-// import '@mcp-b/global'; initializing this again leads to every tool invocation happening twice.
+import '@mcp-b/global'; //initializing this again leads to every tool invocation happening twice.
 
 @Component({
   selector: 'my-element-component',
