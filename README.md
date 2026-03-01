@@ -19,6 +19,8 @@ import '@mcp-b/global'; //initializing this again leads to every tool invocation
 
 Now MCP-B is only initialized in the shell and every tool is only invoked once.
 
+I reported this as a bug: https://github.com/WebMCP-org/npm-packages/issues/136
+
 ## Development
 
 ```bash
