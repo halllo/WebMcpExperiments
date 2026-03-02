@@ -21,6 +21,8 @@ Now MCP-B is only initialized in the shell and every tool is only invoked once.
 
 I reported this as a bug: https://github.com/WebMCP-org/npm-packages/issues/136
 
+✅ Now this is fixed since version `@mcp-b/global@2.0.9`.
+
 ## Development
 
 ```bash
